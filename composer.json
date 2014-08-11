@@ -1,0 +1,34 @@
+{
+    "name": "pms/addressing",
+    "type": "library",
+    "description": "Addressing features of the project management system.",
+    "keywords": [
+        "project",
+        "addressing"
+    ],
+    "homepage": "http://pms.daviddurost.net",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "David Durost",
+        "homepage": "http://daviddurost.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Pms\\Component\\Addressing\\": ""
+
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.*-dev"
+        }
+    }
+}
